@@ -63,17 +63,17 @@ export const Webcam = (props: WebcamProps) => {
     };
 
     const resetDropTimeout = () => {
-        if (dropTimeout)
-            clearTimeout(dropTimeout);
+        // if (dropTimeout)
+        //     clearTimeout(dropTimeout);
 
-        console.log('drop timeout cleared');
+        // console.log('drop timeout cleared');
 
-        setDropTimeout(window.setTimeout(() => {
-            if (props.expiredCallback)
-                props.expiredCallback();
-        }, 60000));
+        // setDropTimeout(window.setTimeout(() => {
+        //     if (props.expiredCallback)
+        //         props.expiredCallback();
+        // }, 60000));
 
-        console.log('drop timeout set');
+        // console.log('drop timeout set');
     }
 
     useEffect(() => { // get the webcam stream
@@ -159,9 +159,7 @@ export const Webcam = (props: WebcamProps) => {
             });
             if (props.expiredCallback && result.stop && result.stop === true)
                 props.expiredCallback();
-            if (result.face_score < 0.7) 
-                resetDropTimeout();
-            const isSuccessful = result.spoofing < 0.3 && result.face_score < 0.7;
+            const isSuccessful = result.spoofing >= 0.3;
             setCurrentFaceArea({
                 ...result.bbox,
                 color: isSuccessful ? 'green' : 'blue'
@@ -194,11 +192,6 @@ export const Webcam = (props: WebcamProps) => {
                         <li>
                             <b>{t('webcam.bar.success_count.title')}</b> 
                             {t('webcam.bar.success_count.text', {success_count: successCount})}
-                        </li>
-                        <li>
-                            {!resultFaceScore || resultFaceScore > 0.7 ? 
-                            <b> {t('webcam.bar.face_score.not_target_face_text')} </b> : 
-                            <b> {t('webcam.bar.face_score.target_face_text')} </b>}
                         </li>
                         <li>
                             <b>spoofing:</b> {resultSpoofing}
