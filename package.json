@@ -1,6 +1,6 @@
 {
-  "name": "antispoofing_frontend",
-  "homepage": "https://run4w4y.github.io/antispoofing_frontend",
+  "name": "antiantispoofing_frontend",
+  "homepage": "https://run4w4y.github.io/antiantispoofing_frontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

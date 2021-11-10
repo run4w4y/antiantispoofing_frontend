@@ -1,6 +1,6 @@
 {
-  "short_name": "antispoofing",
-  "name": "antispoofing_frontend",
+  "short_name": "antiantispoofing",
+  "name": "antiantispoofing_frontend",
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
