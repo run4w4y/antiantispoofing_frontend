@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 
 interface WebcamProps {
     children: JSX.Element,
-    faceID: string,
+    faceID?: string | null,
     assignmentId: string,
     submitImage?: (params: any) => any,
     callback?: () => void,
@@ -159,7 +159,7 @@ export const Webcam = (props: WebcamProps) => {
             });
             if (props.expiredCallback && result.stop && result.stop === true)
                 props.expiredCallback();
-            const isSuccessful = result.spoofing >= 0.3;
+            const isSuccessful = result.spoofing >= 0.7;
             setCurrentFaceArea({
                 ...result.bbox,
                 color: isSuccessful ? 'green' : 'blue'

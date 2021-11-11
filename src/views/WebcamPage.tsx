@@ -17,7 +17,7 @@ export function WebcamPage() {
         i18n.changeLanguage(language ?? 'en');
     }, []);
 
-    if (!faceID || !seed)
+    if (!seed)
         return <div></div>;
 
     if (expired)
