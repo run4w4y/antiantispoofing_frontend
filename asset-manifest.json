@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/antiantispoofing_frontend/static/css/main.8f0c850c.chunk.css",
-    "main.js": "/antiantispoofing_frontend/static/js/main.362f9cb5.chunk.js",
-    "main.js.map": "/antiantispoofing_frontend/static/js/main.362f9cb5.chunk.js.map",
-    "runtime-main.js": "/antiantispoofing_frontend/static/js/runtime-main.31dd2ec5.js",
-    "runtime-main.js.map": "/antiantispoofing_frontend/static/js/runtime-main.31dd2ec5.js.map",
-    "static/js/2.c8db7044.chunk.js": "/antiantispoofing_frontend/static/js/2.c8db7044.chunk.js",
-    "static/js/2.c8db7044.chunk.js.map": "/antiantispoofing_frontend/static/js/2.c8db7044.chunk.js.map",
-    "static/js/3.7ad50629.chunk.js": "/antiantispoofing_frontend/static/js/3.7ad50629.chunk.js",
-    "static/js/3.7ad50629.chunk.js.map": "/antiantispoofing_frontend/static/js/3.7ad50629.chunk.js.map",
+    "main.css": "/antiantispoofing_frontend/static/css/main.311a0488.chunk.css",
+    "main.js": "/antiantispoofing_frontend/static/js/main.fab2a7d2.chunk.js",
+    "main.js.map": "/antiantispoofing_frontend/static/js/main.fab2a7d2.chunk.js.map",
+    "runtime-main.js": "/antiantispoofing_frontend/static/js/runtime-main.5295a13d.js",
+    "runtime-main.js.map": "/antiantispoofing_frontend/static/js/runtime-main.5295a13d.js.map",
+    "static/js/2.ccbbe574.chunk.js": "/antiantispoofing_frontend/static/js/2.ccbbe574.chunk.js",
+    "static/js/2.ccbbe574.chunk.js.map": "/antiantispoofing_frontend/static/js/2.ccbbe574.chunk.js.map",
+    "static/js/3.8496489f.chunk.js": "/antiantispoofing_frontend/static/js/3.8496489f.chunk.js",
+    "static/js/3.8496489f.chunk.js.map": "/antiantispoofing_frontend/static/js/3.8496489f.chunk.js.map",
     "index.html": "/antiantispoofing_frontend/index.html",
-    "static/css/main.8f0c850c.chunk.css.map": "/antiantispoofing_frontend/static/css/main.8f0c850c.chunk.css.map",
-    "static/js/2.c8db7044.chunk.js.LICENSE.txt": "/antiantispoofing_frontend/static/js/2.c8db7044.chunk.js.LICENSE.txt"
+    "static/css/main.311a0488.chunk.css.map": "/antiantispoofing_frontend/static/css/main.311a0488.chunk.css.map",
+    "static/js/2.ccbbe574.chunk.js.LICENSE.txt": "/antiantispoofing_frontend/static/js/2.ccbbe574.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.31dd2ec5.js",
-    "static/js/2.c8db7044.chunk.js",
-    "static/css/main.8f0c850c.chunk.css",
-    "static/js/main.362f9cb5.chunk.js"
+    "static/js/runtime-main.5295a13d.js",
+    "static/js/2.ccbbe574.chunk.js",
+    "static/css/main.311a0488.chunk.css",
+    "static/js/main.fab2a7d2.chunk.js"
   ]
 }
