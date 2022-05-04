@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/antiantispoofing_frontend/static/css/main.311a0488.chunk.css",
-    "main.js": "/antiantispoofing_frontend/static/js/main.fab2a7d2.chunk.js",
-    "main.js.map": "/antiantispoofing_frontend/static/js/main.fab2a7d2.chunk.js.map",
+    "main.js": "/antiantispoofing_frontend/static/js/main.6ba880ff.chunk.js",
+    "main.js.map": "/antiantispoofing_frontend/static/js/main.6ba880ff.chunk.js.map",
     "runtime-main.js": "/antiantispoofing_frontend/static/js/runtime-main.5295a13d.js",
     "runtime-main.js.map": "/antiantispoofing_frontend/static/js/runtime-main.5295a13d.js.map",
-    "static/js/2.ccbbe574.chunk.js": "/antiantispoofing_frontend/static/js/2.ccbbe574.chunk.js",
-    "static/js/2.ccbbe574.chunk.js.map": "/antiantispoofing_frontend/static/js/2.ccbbe574.chunk.js.map",
+    "static/js/2.32947efc.chunk.js": "/antiantispoofing_frontend/static/js/2.32947efc.chunk.js",
+    "static/js/2.32947efc.chunk.js.map": "/antiantispoofing_frontend/static/js/2.32947efc.chunk.js.map",
     "static/js/3.8496489f.chunk.js": "/antiantispoofing_frontend/static/js/3.8496489f.chunk.js",
     "static/js/3.8496489f.chunk.js.map": "/antiantispoofing_frontend/static/js/3.8496489f.chunk.js.map",
     "index.html": "/antiantispoofing_frontend/index.html",
     "static/css/main.311a0488.chunk.css.map": "/antiantispoofing_frontend/static/css/main.311a0488.chunk.css.map",
-    "static/js/2.ccbbe574.chunk.js.LICENSE.txt": "/antiantispoofing_frontend/static/js/2.ccbbe574.chunk.js.LICENSE.txt"
+    "static/js/2.32947efc.chunk.js.LICENSE.txt": "/antiantispoofing_frontend/static/js/2.32947efc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5295a13d.js",
-    "static/js/2.ccbbe574.chunk.js",
+    "static/js/2.32947efc.chunk.js",
     "static/css/main.311a0488.chunk.css",
-    "static/js/main.fab2a7d2.chunk.js"
+    "static/js/main.6ba880ff.chunk.js"
   ]
 }
