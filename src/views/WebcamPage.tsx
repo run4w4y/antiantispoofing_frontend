@@ -22,20 +22,10 @@ export function WebcamPage() {
     if (!seed)
         return <div></div>;
 
-    if ((passed || expiredT) && uploaded) {
-        const res = btoa(atob(seed) + '|>*<|' + 'aaaaa');
-        return <div>
-            {t('webcam.view.success.text', {key: res})} 
-            <button className="pl-2 underline text-gray-600" onClick={async () => {
-                await navigator.clipboard.writeText(res);
-            }}> 
-                {t('webcam.view.success.copy_button')} 
-            </button>
-        </div>;
-    }
-
-    if (expired)
+    if (expired && !expiredT && !passed)
         return <div>{t('webcam.view.timer.expired')}</div>;
+
+    const res = btoa(atob(seed) + '|>*<|' + 'aaaaa');
 
     return (
         <div> 
@@ -52,6 +42,17 @@ export function WebcamPage() {
                     <b>{t('webcam.view.timer.title')}</b> 
                     <br />
                     <Timer seconds={240} callback={() => setExpiredT(true)} />
+                    <br />
+                    {(passed || expiredT) && uploaded ?
+                        <div>
+                            {t('webcam.view.success.text', {key: res})} 
+                            <button className="pl-2 underline text-gray-600" onClick={async () => {
+                                await navigator.clipboard.writeText(res);
+                            }}> 
+                                {t('webcam.view.success.copy_button')} 
+                            </button>
+                        </div>
+                    : null}
                 </div>
             </Webcam>
         </div>
